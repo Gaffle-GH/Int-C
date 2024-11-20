@@ -20,8 +20,9 @@
 
 
 ## Installation (Getting Started)
-* Studio Visual Code
+* Studio Visual Code (Download)
   * https://code.visualstudio.com/
+ 
     
 * To Inport this Repository to your machine.  
   * 1 . Access the Terminal
