@@ -4,7 +4,7 @@
 
 ## Information
 * This Repository is meant for understanding the programming language 'C++'.
-* This will go over Concepts and Ideas that would be taught in any other class.
+* This will go over Concepts and Ideas taught in any other class.
 
    * Concepts/Ideas Overview:
 
@@ -20,11 +20,11 @@
 
 
 ## Installation (Getting Started)
-* Studio Visual Code (Download)
+* Studio Visual Code
   * https://code.visualstudio.com/
  
     
-* To Inport this Repository to your machine.  
+* To import this Repository to your machine.  
   * 1 . Access the Terminal
   * 2 . Follow these Commands
   * 3 . 
