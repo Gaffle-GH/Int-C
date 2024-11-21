@@ -1,4 +1,4 @@
- # Topic 1: Variables (Data Types)
+ # Topic 1: Variables (Data Types) / Inputs and Outputs
  
 ---
 
