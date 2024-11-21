@@ -42,7 +42,19 @@ int x = 1, y = 2, z = 3;
 
 ---
 
-## Topic Chapter 1-2: Constants and Data Types
+## Topic Chapter 1-2: Constants
+
+The **`const`** keyword makes the value in the Variable stay **Constant** throughout the program; The Value within the Variable cannot be modified after it is initialized.
+
+Constant Example:
+```cpp
+const int first = 1;     // Makes sure that The Variable 'first' has a Constant Value of 1.
+```
+
+---
+
+## Topic Chapter 1-3: Data Types
+
 
 
 <div align="center">
