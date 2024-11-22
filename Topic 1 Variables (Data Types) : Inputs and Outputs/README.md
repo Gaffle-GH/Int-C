@@ -180,7 +180,8 @@ World!
 
 - Main Program
 ```ccp
-int main(){
+int main()
+{
 
 return 0;
 }
