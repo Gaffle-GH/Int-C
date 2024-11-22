@@ -131,6 +131,7 @@ Output:
 ```
 8
 ```
+---
 
 `.substr()` Example:
 ```ccp
@@ -142,6 +143,7 @@ Output:
 ```ccp
 World
 ```
+---
 
 When `len` is omitted, the rest of the string returns.
 
