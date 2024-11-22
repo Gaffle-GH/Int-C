@@ -44,9 +44,9 @@ int x = 1, y = 2, z;
 
 ## Topic Chapter 1-2: Constants
 
-The **`const`** keyword makes the value in the Variable stay **Constant** throughout the program; The Value within the Variable cannot be modified after it is initialized.
+The **`const`** keyword keeps the value in the Variable **Constant** throughout the program; the value within the Variable cannot be modified after it is initialized.
 
-Constant Example:
+`const` Example:
 ```cpp
 const int first = 1;     // Makes sure that The Variable 'first' has a Constant Value of 1.
 ```
@@ -104,11 +104,102 @@ strings constants are surrounded by doubles quotes: ``"Hello World";``
 - Uses Double Quotes (`" "`) to store into a string variable.
 - Must **need** the ``#include <string>`` directive.
 
-To Declare a String:
+`string` Example:
 ```ccp
 string name = "John";
-name = name + " Smith";
+name = name + " Doe";
 ```
+
+Output:
+```ccp
+John Doe
+```
+
+---
+
+**String Functions**
+- The `.length()` function returns the length of the string.
+- The `.substr(pos, len)` function returns the string from the start of the position `pos` through the length `len` substring.
+
+`.length()` Example:
+```ccp
+string name = "John Doe";
+name.length();
+```
+
+Output:
+```
+8
+```
+
+`.substr()` Example:
+```ccp
+string sentence = "Hello, World!";
+string sub = sentence.substr(7, 5);
+```
+
+Output:
+```ccp
+World
+```
+
+When `len` is omitted, the rest of the string returns.
+
+Example:
+```ccp
+cout << sentence.substr(0, 5) << endl;
+cout << next.substr(7) << endl;
+```
+
+Output:
+```ccp
+Hello
+World!
+```
+
+
+---
+
+## Topic Chapter 1-5: Program Components
+
+- Comments
+
+`/* Multi-line Comments */`
+
+`/** Doxygen Format */`
+
+`// Comment at the end of the line.`
+
+`/// Doxygen Format`
+
+- Compiler Directives
+
+`#include <iostream>`
+
+`using namespace std;`
+
+- Main Program
+```ccp
+int main(){
+
+return 0;
+}
+```
+
+- Reminder:
+  - All C++ Lines ends with a ";".
+
+
+---
+
+## Topic Chapter 1-6: Input / Ouput
+
+
+
+
+
+
+
 
 
 
