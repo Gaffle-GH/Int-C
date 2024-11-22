@@ -279,6 +279,14 @@ cout << "Counting: " << (1 + i);
 `\\` - Backslash
 `\"` - Quote Character
 
+---
+
+<div align="center">
+Topic 1 - DONE
+</div>
+
+---
+
 
 Topic Example Files - 
 
@@ -297,11 +305,3 @@ Topic Example Files -
 
 
 
-
-
-
-
-
-<div align="center">
-Topic 1 - DONE
-</div>
