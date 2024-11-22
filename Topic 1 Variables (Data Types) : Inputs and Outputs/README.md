@@ -4,13 +4,11 @@
 
 ## Topic Chapter 1-1: Variables
 
-**Variables** are used to store values in memory locations.
- 
-Variable Declaration can Identify a **Type**, **Name**, and **Value**.
-
-Variable Names are called an **Identifier**.
-
-You can **Define** Variables and **Initialize** them.
+- Variable Descriptions:
+  - **Variables** are used to store values in memory locations.
+  - Variable Declaration can Identify a **Type**, **Name**, and **Value**.
+  - **Variable Names** are called an **Identifier**.
+  - You can **Define** Variables and **Initialize** them.
 
 Definition Example:
 ```cpp
@@ -73,7 +71,7 @@ Data Types and Their Sizes:
 
 - `unsigned` - used for positive integers
 
-`double` and `long double` provide more floating data.
+`double` and `long double` provide more **floating** data.
 
 What Identifies as a **Real Numbers**:
 ```
@@ -89,7 +87,7 @@ Characters:
 
 Boolean:
 - `bool` - 1 byte
-  - **Values** of **True** or **False** (1, 0)
+  - **Values** of **True** or **False**
 
 Strings:
 Strings are a group of characters.
@@ -105,13 +103,13 @@ strings constants are surrounded by doubles quotes: ``"Hello World";``
 - Must **need** the ``#include <string>`` directive.
 
 `string` Example:
-```ccp
+```cpp
 string name = "John";
 name = name + " Doe";
 ```
 
 Output:
-```ccp
+```cpp
 John Doe
 ```
 
@@ -122,7 +120,7 @@ John Doe
 - The `.substr(pos, len)` function returns the string from the start of the position `pos` through the length `len` substring.
 
 `.length()` Example:
-```ccp
+```cpp
 string name = "John Doe";
 name.length();
 ```
@@ -134,13 +132,13 @@ Output:
 ---
 
 `.substr()` Example:
-```ccp
+```cpp
 string sentence = "Hello, World!";
 string sub = sentence.substr(7, 5);
 ```
 
 Output:
-```ccp
+```cpp
 World
 ```
 ---
@@ -148,13 +146,13 @@ World
 When `len` is omitted, the rest of the string returns.
 
 Example:
-```ccp
+```cpp
 cout << sentence.substr(0, 5) << endl;
 cout << next.substr(7) << endl;
 ```
 
 Output:
-```ccp
+```cpp
 Hello
 World!
 ```
@@ -181,7 +179,7 @@ World!
 `using namespace std;`
 
 - Main Program
-```ccp
+```cpp
 int main()
 {
 
@@ -189,18 +187,106 @@ return 0;
 }
 ```
 
-- Reminder:
-  - All C++ Lines ends with a ";".
+> Reminder: All C++ Lines ends with a ";".
 
 
 ---
 
-## Topic Chapter 1-6: Input / Ouput
+## Topic Chapter 1-6: Input / Output
+
+- Inputs
+  - Data Streams is a Sequence of Data. (In the form of Characters or Numbers)
+
+- Input Data for Program use.
+  - At the Keyboard
+  - At a File
+
+- Output Data destination is typically.
+  - The Screen
+  - Output File
+
+---
+
+`cin` is used to obtain input from the keyboard.
+
+```cpp
+cin >> sub1 >> sub2 >> etc...; 
+```
+
+- The `>>` operator is called an extraction, it extracts data from the input stream.
+  - Data that is entered from either the **keyboard** or **file** is stored in the variables provided.
+  - Data must be separated by a white space (space, tab, or new line).
+
+`cin` Examples:
+```cpp
+int a, b;
+cin >> a >> b;
+```
+
+```cpp
+string name;
+cin >> name; // Reads Input from the Keyboard
+
+cout << name; // Outputs the name onto the screen.
+```
+
+---
+
+`cout` is used to output to the screen.
+
+- The `<<` operator is called an insert, it inserts data into `cout`.
+  - New Insert Operator is used for each item of output.
+
+```cpp
+cout << sub1 << sub2 << ... << ... ;
+```
+
+- `sub1` and `sub2` can be a constant `strings` by surrounding " " with the text.
+
+Example:
+```cpp
+cout << "Hello World";
+```
+
+Output:
+```cpp
+Hello World
+```
+
+`endl`, `\n` or `"\n"` is used to print a new line.
+
+Example:
+```cpp
+cout << "Hello World\n";
+```
+
+Arithmetic Operations can also be performed in the `cout` lines.
+
+Example:
+```cpp
+cout << "Counting: " << (1 + i);
+```
+
+---
+
+- Different types of Escapes
+`\` - Escape Character
+`\n` - New Line
+`endl` - Newer (Better Alternative)
+
+- Others Escapes
+`\t` - Tab
+`\\` - Backslash
+`\"` - Quote Character
 
 
-
-
-
+Topic Example Files - 
+`Chapter 1-1`: `1-1a`
+`Chapter 1-2`: `1-2a`
+`Chapter 1-3`: `1-3a`
+`Chapter 1-4`: `1-4a`
+`Chapter 1-5`: `1-5a`
+`Chapter 1-6`: `1-6a`
 
 
 
@@ -211,5 +297,5 @@ return 0;
 
 
 <div align="center">
- D O N E
+Topic 1 - DONE
 </div>
