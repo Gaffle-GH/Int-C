@@ -37,7 +37,7 @@ Multiple Variables can be Declared and Initialized under one Statement.
 
 Multi-Variable Example:
 ```cpp
-int x = 1, y = 2, z = 3;
+int x = 1, y = 2, z;
 ```
 
 ---
@@ -54,6 +54,65 @@ const int first = 1;     // Makes sure that The Variable 'first' has a Constant 
 ---
 
 ## Topic Chapter 1-3: Data Types
+
+**Integers** are **Whole Numbers**.
+
+Integers Examples:
+```
+-1, 0, 4, 9
+```
+
+Data Types and Their Sizes:
+- `int` - 4 bytes
+- `short` - 2 bytes
+- `long` - 4 bytes (8 bytes on 64-bit Machines)
+- `long long` - 8 bytes
+- `float` - 4 bytes
+- `double` - 8 bytes
+- `long double` - 10 or 16 bytes 
+
+- `unsigned` - used for positive integers
+
+`double` and `long double` provide more floating data.
+
+What Identifies as a **Real Numbers**:
+```
+3.45
+3
+-1.3
+4.5e3 or -4.5e-3 (Scientific Notation)
+```
+
+Characters:
+- `char` - 1 byte
+  - Characters are surrounded by single quotes '  ' : ``'A'``, ``'6'``
+
+Boolean:
+- `bool` - 1 byte
+  - **Values** of **True** or **False** (1, 0)
+
+Strings:
+Strings are a group of characters.
+strings constants are surrounded by doubles quotes: ``"Hello World";``
+
+
+---
+
+## Topic Chapter 1-4: Strings
+
+`string` is a class, different from the types already mentioned.
+- Uses Double Quotes (`" "`) to store into a string variable.
+- Must **need** the ``#include <string>`` directive.
+
+To Declare a String:
+```ccp
+string name = "John";
+name = name + " Smith";
+```
+
+
+
+
 
 
 
